@@ -96,13 +96,21 @@ Primary diagnostics:
 
 ## 5. Project Structure
 src/
+
 io.py # data discovery & single-asset loading
+
 quality.py # data quality metrics
+
 curate.py # batch data pipeline
+
 universe.py # universe construction rules
+
 features.py # signal definitions
+
 backtest.py # portfolio simulation
+
 analytics.py # performance & risk metrics
+
 Data and outputs are intentionally excluded from version control.
 
 ---
